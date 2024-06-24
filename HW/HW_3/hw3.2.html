@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calendar</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: rgb(120, 171, 168);
+        }
+            .year {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap;
+                gap: 30px;
+                padding: 30px 0 0 0;
+            }
+            .month {
+                width: 230px;
+                height: 180px;
+                border-radius: 15px;
+                border: 1px solid rgb(252, 220, 148);
+                background-color: rgb(200, 207, 160);
+                display: flex;
+                justify-content: center;
+                align-items: flex-start;
+                flex-direction: column;
+                box-shadow: 7px 7px 10px 2px rgba(200, 207, 160,0.75);
+                transition: 0.5s;
+            }
+            h3 {
+                margin: 8px 0 15px 10px
+            }
+            p{
+                margin: 0 0 10px 10px;
+            }
+            .month:hover {
+                transform: scale(1.1);
+                transition: 1s;
+            }
+    </style>
+</head>
+<body>
+<div class="year">
+    <div class="month">
+        <h3> Січень </h3>
+        <p> Довжина дня: 8 годин</p>
+        <p>Температура: -5°C</p>
+        <p>Температурний рекорд: -25°C</p>
+        <p>Кількість днів: 31</p>
+    </div>
+    <div class="month">
+        <h3 style="margin: 8px 0 15px 10px"> Лютий </h3>
+        <p style="margin: 0 0 8px 10px"> Довжина дня: 9 годин</p>
+        <p style="margin: 0 0 8px 10px">Температура: -3°C</p>
+        <p style="margin: 0 0 8px 10px">Температурний рекорд: -20°C</p>
+        <p style="font-size: 15px; margin: 0 0 0 10px">Кількість днів: 28 (29 у високосний рік)</p>
+    </div>
+    <div class="month">
+        <h3> Березень </h3>
+        <p> Довжина дня: 11 годин</p>
+        <p>Температура: 2°C</p>
+        <p>Температурний рекорд: -10°C</p>
+        <p>Кількість днів: 31</p>
+    </div>
+    <div class="month">
+        <h3> Квітень </h3>
+        <p> Довжина дня: 13 годин</p>
+        <p>Температура: 10°C</p>
+        <p>Температурний рекорд: -5°C</p>
+        <p>Кількість днів: 30</p>
+    </div>
+    <div class="month">
+        <h3> Травень </h3>
+        <p> Довжина дня: 15 годин</p>
+        <p>Температура: 15°C</p>
+        <p>Температурний рекорд: 30°C</p>
+        <p>Кількість днів: 31</p>
+    </div>
+    <div class="month">
+        <h3> Червень </h3>
+        <p> Довжина дня: 17 годин</p>
+        <p>Температура: 20°C</p>
+        <p>Температурний рекорд: 35°C</p>
+        <p>Кількість днів: 30</p>
+    </div>
+    <div class="month">
+        <h3> Липень </h3>
+        <p> Довжина дня: 16 годин</p>
+        <p>Температура: 25°C</p>
+        <p>Температурний рекорд: 40°C</p>
+        <p>Кількість днів: 31</p>
+    </div>
+    <div class="month">
+        <h3> Серпень </h3>
+        <p> Довжина дня: 14 годин</p>
+        <p>Температура: 24°C</p>
+        <p>Температурний рекорд: 38°C</p>
+        <p>Кількість днів: 31</p>
+    </div>
+    <div class="month">
+        <h3> Вересен </h3>
+        <p> Довжина дня: 12 годин</p>
+        <p>Температура: 18°C</p>
+        <p>Температурний рекорд: 30°C</p>
+        <p>Кількість днів: 30</p>
+    </div>
+    <div class="month">
+        <h3> Жовтень </h3>
+        <p> Довжина дня: 10 годин</p>
+        <p>Температура: 10°C</p>
+        <p>Температурний рекорд: 25°C</p>
+        <p>Кількість днів: 31</p>
+    </div>
+    <div class="month">
+        <h3> Листопад </h3>
+        <p> Довжина дня: 8 годин</p>
+        <p>Температура: 5°C</p>
+        <p>Температурний рекорд: 15°C</p>
+        <p>Кількість днів: 30</p>
+    </div>
+    <div class="month">
+        <h3> Грудень </h3>
+        <p> Довжина дня: 7 годин</p>
+        <p>Температура: -2°C</p>
+        <p>Температурний рекорд: -20°C</p>
+        <p>Кількість днів: 31</p>
+    </div>
+</div>
+</body>
+</html>
