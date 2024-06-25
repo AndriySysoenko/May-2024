@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Layout</title>
+    <style>
+        body{
+            margin: 5vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 5vh;
+        }
+        .firstBlock{
+            height: 60vh;
+            width: 150vh;
+            background-color: blue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 30px;
+            color: white;
+        }
+        .secondBlock{
+            /*box-sizing: border-box;*/
+            height: 60vh;
+            width: 150vh;
+            /*background-color: yellow;*/
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .insideBlock{
+            height: 100%;
+            width: 30%;
+            background-color: darkblue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 30px;
+            color: white;
+        }
+        .thirdBlock{
+            height: 150vh;
+            width: 150vh;
+            background-color: blue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 30px;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+<div class="firstBlock">Widgets</div>
+<div class="secondBlock">
+    <div class="insideBlock">Big Widgets</div>
+    <div class="insideBlock">Bigger Widgets</div>
+    <div class="insideBlock">Huge Widgets</div>
+</div>
+<div class="thirdBlock">Contact</div>
+</body>
+</html>
