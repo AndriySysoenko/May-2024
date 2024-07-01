@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hard layout</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10..0,100..900&display=swap');
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            font-family: Inter;
+            font-size: 45px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+        header {
+            height: 22vh;
+            background: #8D8484;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        main {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: #FFF;
+        }
+        section{
+            height: 56vh;
+            width: 73vw;
+        }
+        .sectionTop{
+            height: 33.5%;
+            background: #776969;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .sectionMiddle{
+            height: 33.5%;
+            background: #643030;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .sectionBottom{
+            height: 33%;
+            background: #441818;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        aside{
+            height: 56vh;
+            width: 27vw;
+        }
+        .asideTop {
+            height: 50%;
+            background: #937575;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .asideBottom{
+            height: 50%;
+            background: #644C4C;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        footer {
+            height: 22vh;
+            background: #BDBDBD;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+    </style>
+</head>
+<body>
+<header>
+    <p>Header</p>
+</header>
+<main>
+    <section>
+        <div class="sectionTop">
+            <p>Content-1</p>
+        </div>
+        <div class="sectionMiddle">
+            <p>Content-2</p>
+        </div>
+        <div class="sectionBottom">
+            <p>Content-3</p>
+        </div>
+    </section>
+    <aside>
+        <div class="asideTop">
+            <p>spam-1</p>
+        </div>
+        <div class="asideBottom">
+            <p>spam-2</p>
+        </div>
+    </aside>
+</main>
+<footer>
+    <p>footer</p>
+</footer>
+</body>
+</html>
