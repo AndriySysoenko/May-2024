@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Roboto", sans-serif;
+            font-weight: 300;
+        }
+        body{
+            height: 100vh;
+            background: #338688;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        section{
+            width: 600px;
+            height: 400px;
+            background: white;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            flex-direction: column;
+            border-radius: 20px;
+        }
+        section p{
+            width: 100%;
+            padding: 30px 0;
+            background: #c0e0ec;
+            border-radius: 20px 20px 0 0;
+            text-align: center;
+            font-family: "Roboto", sans-serif;
+            font-size: 30px;
+        }
+        input[type="email"],
+        input[type="password"]
+        {
+            display: block;
+            width: 400px;
+            height: 40px;
+            margin: 30px 20px;
+        }
+        input[type="submit"]{
+            width: 50px;
+            height: 30px;
+        }
+        div{
+            width: 400px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 20px;
+        }
+        label{
+            padding-right: 30px;
+            font-family: "Roboto", sans-serif;
+            font-size: 15px;
+        }
+        input[type="submit"]{
+            width: 100px;
+            border-radius: 10px;
+            border: 1px solid;
+        }
+    </style>
+</head>
+<body>
+<section>
+    <p>Вхід в особистий кабінет</p>
+    <form>
+        <input type="email" name="username" placeholder="Логін або email">
+        <input type="password" name="password" placeholder="Пароль">
+        <div>
+            <label>Запам'ятати мене <input type="checkbox" name="remember"> </label>
+            <input type="submit" value="Вхід">
+        </div>
+    </form>
+</section>
+</body>
+</html>
