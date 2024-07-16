@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pixel</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body{
+      /*height: 100vh;*/
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      flex-direction: column;
+      position: relative;
+    }
+    .logo{
+      width: 140px;
+      height: 100px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .logo>p{
+      font-size: 28px;
+    }
+    .logo>img{
+      width: 50px;
+      height: 50px;
+      border-radius: 5px;
+    }
+    header{
+      height: 80px;
+      width: 100vw;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 80px;
+      margin-bottom: 100px;
+      color: white;
+    }
+    ul{
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+    }
+    a{
+      text-decoration: none;
+      color: white;
+      font-size: 20px;
+    }
+    input[type="submit"]{
+      width: 100px;
+      height: 40px;
+      background-color: white;
+      border-radius: 5px;
+    }
+    p{
+      width: 600px;
+      font-size: 32px;
+      color: white;
+    }
+    form{
+      width: 600px;
+      height: 60px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: white;
+      gap: 8px;
+      margin-top: 30px;
+      border-radius: 10px;
+    }
+    form>button{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 5px;
+      padding: 0 5px;
+      font-size: 20px;
+    }
+    form>button>p{
+      font-size: 14px;
+      color: black;
+      width: 50px;
+    }
+    .search{
+      background-color: white;
+      border: none;
+      height: 34px;
+    }
+    input[type="search"]{
+      height: 35px;
+      width: 420px;
+      border: none;
+    }
+    video{
+      position: absolute;
+      z-index: -1;
+      top: -100px;
+      height: 90vh;
+      width: 100vw;
+      object-fit: cover;
+    }
+  </style>
+</head>
+<body>
+<header>
+  <div class="logo">
+    <img src="media/pexels-seeklogo.svg" alt="logo pexels">
+    <p><b>Pexels</b></p>
+  </div>
+    <nav>
+      <ul>
+        <li><a href="#">Пошук</a></li>
+        <li><a href="#">Ліцензія</a></li>
+        <li><a href="#">Завантаження</a></li>
+        <li><a href="#">...</a></li>
+        <li><input type="submit" value="Реєстрація"></li>
+      </ul>
+    </nav>
+</header>
+  <p>НАЙКРАЩІ БЕЗКОШТОВНІ СТОКОВІ ВІДЕО ВІД СПІЛЬНОТИ PIXELS</p>
+  <form>
+    <button>
+      <img src="media/camera-32.png" alt="">
+      <p>Фото</p>
+    </button>
+    <input type="search" name="search" placeholder="Пошук безкоштовних відео">
+    <button class="search">
+      <a href="#"><img src="media/Search26.png" alt=""></a>
+    </button>
+  </form>
+  <video src="media/river.mp4" loop autoplay muted></video>
+</body>
+</html>
