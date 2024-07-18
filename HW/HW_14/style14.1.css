@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Taviraj:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #F7F6F4;
+}
+header{
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 32px 0 90px 0;
+}
+nav>ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+}
+nav>ul>li{
+    position: relative;
+}
+nav>ul>li>a{
+    text-decoration: none;
+    display: block;
+    padding: 10px 0 6px 0;
+    color: #333;
+    font-family: "Taviraj", serif;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+}
+.dropdown{
+    width: 160px;
+    height: 107px;
+    list-style-type: none;
+    display: none;
+    position: absolute;
+}
+.dropdown a{
+    text-decoration: none;
+    color: #333;
+    font-family: "Taviraj", serif;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+}
+.dropdown li:hover{
+    transform: scale(1.1);
+    color: black;
+}
+nav>ul>li:hover .dropdown{
+    display: block;
+}
+header>div{
+    width: 178px;
+    height: 22px;
+    margin-right: 186px;
+}
+.vip{
+    width: 1110px;
+    height: 505px;
+    background: #F1DDC9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 54px;
+    margin-bottom: 79px;
+}
+.vip>img{
+    width: 325px;
+    height: 467px;
+}
+.vip>div>span{
+    display: block;
+    color: #333;
+    font-family: "Taviraj", serif;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 80px; /* 133.333% */
+    letter-spacing: 1.2px;
+    margin: 56px 317px 32px 0;
+}
+.vip>div>p{
+    width: 529px;
+    color: #333;
+    font-family: "Nunito", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.48px;
+}
+.vip>div>button{
+    width: 208px;
+    height: 62px;
+    background: #D84727;
+    margin: 79px 522px 50px 0;
+    color: #FFF;
+    font-family: "Taviraj", serif;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+}
+h3{
+    color: #333;
+    font-family: "Taviraj", serif;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 40px; /* 111.111% */
+    letter-spacing: 0.72px;
+    margin-bottom: 129px;
+}
+.options{
+    width: 1110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 132px;
+}
+.options>div{
+    width: 256px;
+    height: 278px;
+    background: #FFF;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.card-watch{
+    width: 220px;
+    height: 221px;
+    position: absolute;
+    top: -40px;
+    left: 24px;
+}
+.options>div>p{
+    width: 220px;
+    color: #333;
+    font-family: "Taviraj", serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px; /* 133.333% */
+    margin-bottom: 33px;
+}
+.new{
+    width: 1032px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 55px;
+    font-family: "Taviraj", serif;
+    margin-bottom: 151px;
+}
+.new>div>h3{
+    color: #333;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 40px; /* 111.111% */
+    letter-spacing: 0.72px;
+}
+.new>div>span{
+    width: 163px;
+    color: #777;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 200% */
+    letter-spacing: 0.4px;
+}
+.new>div>p{
+    width: 350px;
+    color: #333;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 48px; /* 133.333% */
+    letter-spacing: 0.72px;
+}
+.new>img{
+    width: 627.536px;
+    height: 484px;
+}
+.name-section{
+    margin-bottom: 50px;
+}
