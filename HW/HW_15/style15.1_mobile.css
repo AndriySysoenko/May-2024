@@ -1,0 +1,33 @@
+@media screen and (max-width: 480px){
+.general{
+    width: 99vw;
+    height: 78vh;
+    flex-direction: column;
+}
+    section>div{
+        width: 100vw;
+        height: 22.5vh;
+    }
+.big-section{
+    width: 100vw;
+    height: 60vh;
+    border: 6px solid white;
+    border-radius: 18px;
+    /*border-radius: 10px;*/
+    /*background: #dad9d9;*/
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+}
+    .small-section{
+        width: 100vw;
+        height: 22.5vh;
+        border: 6px solid white;
+        border-radius: 18px;
+        /*border-radius: 10px;*/
+        /*background: #dad9d9;*/
+        /*display: flex;*/
+        /*justify-content: center;*/
+        /*align-items: center;*/
+    }
+}
