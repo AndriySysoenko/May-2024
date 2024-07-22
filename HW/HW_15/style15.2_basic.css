@@ -15,11 +15,12 @@ section{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    gap: 8px;
+    border: 8px solid white;
 }
 section>div{
     width: 99vw;
     height: 39vh;
-    border: 8px solid white;
     border-radius: 18px;
     background: #dad9d9;
     display: flex;
@@ -29,7 +30,6 @@ section>div{
 .general{
     width: 99vw;
     height: 59vh;
-    border: 8px solid white;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -39,8 +39,35 @@ section>div{
 }
 .big-section{
     width: 69.5vw;
-    height: 59vh;
-    border-radius: 10px;
+    height: 58vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 8px;
+}
+.top{
+    width: 69.5vw;
+    height: 29vh;
+    border-radius: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #dad9d9;
+}
+.many-section{
+    width: 69.5vw;
+    height: 29vh;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+}
+.many-section>div{
+    width: 23vw;
+    height: 29vh;
+    border-radius: 18px;
     background: #dad9d9;
     display: flex;
     justify-content: center;
@@ -48,8 +75,8 @@ section>div{
 }
 .small-section{
     width: 29.5vw;
-    height: 59vh;
-    border-radius: 10px;
+    height: 58vh;
+    border-radius: 18px;
     background: #dad9d9;
     display: flex;
     justify-content: center;
