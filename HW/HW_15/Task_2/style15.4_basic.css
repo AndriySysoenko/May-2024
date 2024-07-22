@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    display: flex;
+    width: 90vw;
+    /*padding: 64px 32px;*/
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    background: #F3F5F6;
+}
+section{
+    width: 574px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
