@@ -1,0 +1,33 @@
+@media screen and (max-width: 480px){
+    main{
+        display: flex;
+        width: 23vw;
+        height: 72vh;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0;
+    }
+    section{
+        width: 21vw;
+        height: 41vh;
+        margin: 32px auto 24px auto;
+        gap: 16px;
+    }
+    section>h2 {
+        width: 21vw;
+        height: 8vh;
+        font-size: 32px;
+        letter-spacing: 0.25px;
+    }
+    section>ul>li {
+        width: 21vw;
+        height: 5.5vh;
+        font-size: 18px;
+    }
+    iframe {
+        width: 21vw;
+        height: 21vh;
+        margin: 0 0 32px 0
+    }
+}
