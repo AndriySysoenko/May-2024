@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+        *{
+            margin: 0;
+            font-family: "Inter", sans-serif;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        div {
+            display: grid;
+            height: 90vh;
+            width: 90vw;
+            grid-template-rows: 2fr repeat(6, 1fr) 2fr;
+            grid-template-columns: 3fr 1fr;
+            grid-template-areas:
+            'Header Header'
+            'content-1 spam-1'
+            'content-1 spam-1'
+            'content-2 spam-1'
+            'content-2 spam-2'
+            'content-3 spam-2'
+            'content-3 spam-2'
+            'footer footer';
+        }
+        header{
+            grid-area: Header;
+            background: #8D8484;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        main{
+            grid-area: content-1;
+            background: #776969;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        article{
+            grid-area: content-2;
+            background: #643030;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        section{
+            grid-area: content-3;
+            background: #441818;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        aside{
+            grid-area: spam-1;
+            background: #937575;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        address{
+            grid-area: spam-2;
+            background: #644C4C;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-style: normal;
+        }
+        footer{
+            grid-area: footer;
+            background: #BDBDBD;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        span{
+            color: #FFF;
+            font-size: 45px;
+            font-weight: 400;
+        }
+        header>span,
+        footer>span
+        {
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <header><span>Header</span></header>
+    <main><span>Content - 1</span></main>
+    <article><span>Content - 2</span></article>
+    <section><span>Content - 3</span></section>
+    <aside><span>spam -1</span></aside>
+    <address><span>spam -2</span></address>
+    <footer><span>footer</span></footer>
+</div>
+</body>
+</html>
